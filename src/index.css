@@ -1,0 +1,40 @@
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 600px;
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: local("Open Sans Light"),
+    url("./assets/fonts/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CaviarDreamsBold";
+  src: local("Caviar Dreams Bold"),
+    url("./assets/fonts/Caviar Dreams Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CaviarDreams";
+  src: local("CaviarDreams"),
+    url("./assets/fonts/CaviarDreams.ttf") format("truetype");
+}
+
+body {
+  font-family: "CaviarDreamsBold" !important;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(#2e76b7, #d4e9f5);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
